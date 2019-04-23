@@ -1,6 +1,6 @@
 {
   "name": "file-preprocessor-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a loader for webpack using file-preprocessor (c++ like preprocessor syntax)",
   "main": "index.js",
   "repository": {
