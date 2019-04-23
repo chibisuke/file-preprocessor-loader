@@ -1,0 +1,27 @@
+{
+  "name": "file-preprocessor-loader",
+  "version": "1.0.0",
+  "description": "a loader for webpack using file-preprocessor (c++ like preprocessor syntax)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chibisuke/file-preprocessor-loader.git"
+  },
+  "keywords": [
+    "angular",
+    "ionic",
+    "preprocessor",
+    "webpack",
+    "loader"
+  ],
+  "author": "Chibisuke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chibisuke/file-preprocessor-loader/issues"
+  },
+  "homepage": "https://github.com/chibisuke/file-preprocessor-loader#readme",
+  "dependencies": {
+    "file-preprocessor": "^1.0.1",
+    "loader-utils": "0.2.x"
+  }
+}
