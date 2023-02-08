@@ -1,6 +1,6 @@
 {
   "name": "file-preprocessor-loader",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "a loader for webpack using file-preprocessor (c++ like preprocessor syntax)",
   "main": "index.js",
   "repository": {
@@ -22,6 +22,6 @@
   "homepage": "https://github.com/chibisuke/file-preprocessor-loader#readme",
   "dependencies": {
     "file-preprocessor": "^1.0.1",
-    "loader-utils": "^3.2.1"
+    "loader-utils": "^1.4.2"
   }
 }

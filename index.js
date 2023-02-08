@@ -4,7 +4,7 @@ module.exports = function (source) {
 	loaderUtils = require("loader-utils");
 	var FilePreprocessor = require('file-preprocessor').FilePreprocessor;
 	const util = require('util');
-	query = loaderUtils.parseQuery(this.query);
+	query = loaderUtils.getOptions(this) || {};
 	try {
 		var fp = new FilePreprocessor(query);
 		return fp.processString(source);
